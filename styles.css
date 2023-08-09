@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+body {
+  padding: 0%;
+  padding-top: 70px;
+  margin: 0%;
+}
+#nav-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+  display: flex;
+  height: 60px;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f8eded;
+}
+.navigation-links-container {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+}
+.navigation-links {
+  padding: 4px 30px;
+  color: black;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  cursor: pointer;
+}
+.navigation-links:hover {
+  color: rgb(166, 177, 150);
+  transition: 0.2s;
+}
+
+.logo-png {
+  margin-left: 10px;
+  width: 40px;
+  margin-top: 3px;
+}
+
+.reg-buttons {
+  font-family: "Poppins", sans-serif;
+  padding: 6px 10px;
+  border-style: none;
+  background-color: rgb(13, 13, 248);
+  font-weight: 600;
+  color: white;
+  cursor: pointer;
+}
+.reg-buttons:hover {
+  background-color: white;
+  color: rgb(13, 13, 248);
+  transition: 0.2s ease-in-out;
+}
+.accounts {
+  margin-right: 10px;
+}
+.main {
+  display: flex;
+}
+#aside-navigation {
+  border: 4px solid #d7dbdd;
+  border-radius: 10px;
+  display: inline-block;
+  width: 320px;
+  height: 612px;
+  margin-left: 5px;
+  background-image: linear-gradient(
+    75deg,
+    rgb(245, 230, 210),
+    rgb(226, 223, 218),
+    rgb(255, 255, 255)
+  );
+}
+
+#aside-navigation > h1 {
+  color: rgb(68, 67, 67);
+  font-family: "Poppins";
+  margin: 4px auto;
+  clear: both;
+}
+#task-editor {
+  border: 4px solid #d7dbdd;
+  display: flex;
+  width: 960px;
+  height: 612px;
+  margin-left: -2px;
+  border-left: none;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+#aside-navigation > h1 {
+  color: rgb(37, 37, 37);
+  text-align: center;
+  margin-top: 4px;
+  font-size: 23px;
+  font-weight: bold;
+  border-bottom: 4px solid rgb(173, 173, 173);
+  margin-bottom: 7px;
+}
+#task-check-button {
+  height: 50px;
+  margin: auto;
+}
+#mytask {
+  margin: auto;
+}
+.welcome-txt {
+  font-family: "Poppins", sans-serif;
+  color: blue;
+  text-align: center;
+}
+#task-creator-button {
+  border-style: none;
+  padding: 6px 10px;
+  font-family: "Poppins", sans-serif;
+  background-color: black;
+  color: white;
+  margin-left: 33px;
+}
+#task-creator-button:hover {
+  cursor: pointer;
+  background-color: white;
+  color: black;
+  transition: 0.1s;
+  display: inline-block;
+}
+#task-creator-button:active {
+  background-color: red;
+  transition: 1s;
+}
+#task-creator-section > legend {
+  color: rgb(15, 14, 14);
+  font-family: "Poppins", sans-serif;
+}
+#button-2 {
+  width: 100px;
+  height: 40px;
+}
+#msg-task {
+  font-family: "Poppins", sans-serif;
+  color: blue;
+  font-size: larger;
+  margin: 0 auto;
+}
+#task-namme-section > fieldset {
+  margin-top: 10px;
+  height: 453px;
+  border-radius: 4px;
+}

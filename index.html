@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="shortcut icon" href="images\list.png" type="image/x-icon" />
+    <title>To do List - Note your tasks</title>
+  </head>
+  <body>
+    <nav id="nav-bar">
+      <div class="logo">
+        <a href="index.html"
+          ><img src="images\checklist.png" alt="logo" class="logo-png"
+        /></a>
+      </div>
+      <div class="navigation-links-container">
+        <li class="navigation-links" class="active">Home</li>
+        <li class="navigation-links">History</li>
+        <li class="navigation-links">Tasks</li>
+        <li class="navigation-links">About US</li>
+      </div>
+      <div class="accounts">
+        <input
+          type="button"
+          value="Login"
+          class="reg-buttons"
+          id="log-in--btn"
+        />
+        <input
+          type="button"
+          value="Sign Up"
+          class="reg-buttons"
+          id="sign-up-btn"
+        />
+      </div>
+    </nav>
+    <main class="main">
+      <aside id="aside-navigation">
+        <h1>To-do List</h1>
+        <section id="task-creator-section">
+          <p class="welcome-txt"><strong>Welcome to To Do list!</strong></p>
+          <!--this is the welcome text in the to do list-->
+          <legend>
+            Create daily todos:
+            <input
+              type="button"
+              value="Create your task"
+              id="task-creator-button"
+              onclick="displaytext()"
+            /><!--this is task creator button-->
+          </legend>
+        </section>
+        <section id="task-namme-section">
+          <fieldset>
+            <p id="msg-task"></p>
+          </fieldset>
+        </section>
+      </aside>
+      <div id="task-editor"></div>
+    </main>
+    <script src="myscript.js"></script>
+  </body>
+</html>
