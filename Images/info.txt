@@ -1,0 +1,14 @@
+
+Hope you enjoy your new logo, here are the people that
+made your beautiful logo happen :)
+font name: Rajdhani-Light
+font link: https://fonts.google.com/specimen/Rajdhani
+font author: Indian Type Foundry
+font author site: https://www.indiantypefoundry.com/
+
+
+icon designer: Alfredo @ IconsAlfredo.us
+icon designer link: /AlfredoCreates
+        
+{"bg":"#423833","icon":"#D1793F","font":"#ffffff","slogan":"#ffffff"}
+      
