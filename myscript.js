@@ -17,19 +17,6 @@ function myfunction() {
 }
 myfunction();
 
-const car = { type: "Fiat", model: "500", color: "white" };
-
-// Display some data from the object:
-
-const person = {
-  firstname: "Muhammad Umer",
-  lastname: "Alam",
-};
-
-// Display data from the object:
-document.getElementById("demo").innerHTML =
-  person.firstname + "" + person.lastname;
-
 function displaytext() {
   return (document.getElementById("msg-task").innerHTML =
     "Your task can't be created right now because this website is under development" +
